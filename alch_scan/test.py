@@ -38,7 +38,7 @@ def ping():
 
 @app.route("/debug")
 def debug():
-    breakpoint()
+    # breakpoint()
     return ""
 
 
